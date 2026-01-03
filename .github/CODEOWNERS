@@ -1,0 +1,10 @@
+# CODEOWNERS for log-anomaly-detector
+
+# Default owner for everything
+*                       @secwexen
+
+# Source code
+/src/             @secwexen
+
+# Tests
+/tests/                 @secwexen
