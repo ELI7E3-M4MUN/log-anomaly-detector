@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anomaly Dashboard</title>
+</head>
+<body>
+    <h1>Anomaly Report</h1>
 
+    {% if anomalies %}
+        <ul>
+        {% for item in anomalies %}
+            <li>{{ item.raw }} | Score: {{ item.anomaly_score }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No anomalies detected.</p>
+    {% endif %}
+</body>
+</html>
